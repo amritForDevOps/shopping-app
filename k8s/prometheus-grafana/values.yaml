@@ -1,0 +1,10 @@
+# Minimal Helm values placeholder for Prometheus & Grafana
+# minimal overrides for kube-prometheus-stack
+grafana:
+  adminPassword: "ChangeMeGrafanaPassword"
+  ingress:
+    enabled: false
+
+prometheus:
+  prometheusSpec:
+    evaluationInterval: "15s"

@@ -1,0 +1,22 @@
+# Node
+node_modules/
+npm-debug.log
+.env
+
+# Docker
+dist/
+*.log
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+.terraform.lock.hcl
+
+# IDE
+.vscode/
+.idea/
+.DS_Store

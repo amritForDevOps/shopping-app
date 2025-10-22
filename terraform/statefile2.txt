@@ -1,0 +1,95 @@
+[0m[1mrandom_password.db: Refreshing state... [id=none][0m
+[0m[1mmodule.eks.aws_cloudwatch_log_group.this[0]: Refreshing state... [id=/aws/eks/shopping-eks/cluster][0m
+[0m[1maws_ecr_repository.frontend: Refreshing state... [id=shopping-frontend][0m
+[0m[1mmodule.eks.module.kms.data.aws_caller_identity.current[0]: Reading...[0m[0m
+[0m[1mmodule.eks.module.eks_managed_node_group["example"].data.aws_partition.current: Reading...[0m[0m
+[0m[1mmodule.eks.data.aws_iam_policy_document.assume_role_policy[0]: Reading...[0m[0m
+[0m[1mmodule.eks.module.eks_managed_node_group["example"].data.aws_caller_identity.current: Reading...[0m[0m
+[0m[1mmodule.eks.module.eks_managed_node_group["example"].data.aws_iam_policy_document.assume_role_policy[0]: Reading...[0m[0m
+[0m[1maws_ecr_repository.backend: Refreshing state... [id=shopping-backend][0m
+[0m[1mmodule.eks.data.aws_partition.current: Reading...[0m[0m
+[0m[1maws_db_instance.postgres: Refreshing state... [id=db-A3O632EWFYL32PLLZ7RZVNB5QI][0m
+[0m[1mmodule.eks.data.aws_partition.current: Read complete after 0s [id=aws][0m
+[0m[1mmodule.eks.module.eks_managed_node_group["example"].data.aws_partition.current: Read complete after 0s [id=aws][0m
+[0m[1mmodule.eks.data.aws_iam_policy_document.assume_role_policy[0]: Read complete after 0s [id=2764486067][0m
+[0m[1mmodule.eks.module.eks_managed_node_group["example"].data.aws_iam_policy_document.assume_role_policy[0]: Read complete after 0s [id=2560088296][0m
+[0m[1mmodule.eks.data.aws_caller_identity.current: Reading...[0m[0m
+[0m[1mmodule.vpc.aws_vpc.this[0]: Refreshing state... [id=vpc-05325fb7c79c2e327][0m
+[0m[1mmodule.eks.module.kms.data.aws_partition.current[0]: Reading...[0m[0m
+[0m[1mmodule.eks.module.kms.data.aws_partition.current[0]: Read complete after 0s [id=aws][0m
+[0m[1mmodule.eks.aws_iam_role.this[0]: Refreshing state... [id=shopping-eks-cluster-20251022074512649900000002][0m
+[0m[1mmodule.eks.module.eks_managed_node_group["example"].aws_iam_role.this[0]: Refreshing state... [id=example-eks-node-group-20251022074512649300000001][0m
+[0m[1mmodule.eks.module.kms.data.aws_caller_identity.current[0]: Read complete after 0s [id=124355676261][0m
+[0m[1mmodule.eks.module.eks_managed_node_group["example"].data.aws_caller_identity.current: Read complete after 0s [id=124355676261][0m
+[0m[1mmodule.eks.data.aws_caller_identity.current: Read complete after 0s [id=124355676261][0m
+[0m[1mmodule.eks.data.aws_iam_session_context.current: Reading...[0m[0m
+[0m[1mmodule.eks.data.aws_iam_session_context.current: Read complete after 0s [id=arn:aws:iam::124355676261:user/amritForDevOps][0m
+[0m[1mmodule.eks.module.eks_managed_node_group["example"].aws_iam_role_policy_attachment.this["AmazonEKSWorkerNodePolicy"]: Refreshing state... [id=example-eks-node-group-20251022074512649300000001-20251022074515462000000005][0m
+[0m[1mmodule.eks.module.eks_managed_node_group["example"].aws_iam_role_policy_attachment.this["AmazonEKS_CNI_Policy"]: Refreshing state... [id=example-eks-node-group-20251022074512649300000001-20251022074515460800000004][0m
+[0m[1mmodule.eks.module.eks_managed_node_group["example"].aws_iam_role_policy_attachment.this["AmazonEC2ContainerRegistryReadOnly"]: Refreshing state... [id=example-eks-node-group-20251022074512649300000001-20251022074515448000000003][0m
+[0m[1mmodule.eks.aws_iam_role_policy_attachment.this["AmazonEKSVPCResourceController"]: Refreshing state... [id=shopping-eks-cluster-20251022074512649900000002-20251022074515778200000007][0m
+[0m[1mmodule.eks.aws_iam_role_policy_attachment.this["AmazonEKSClusterPolicy"]: Refreshing state... [id=shopping-eks-cluster-20251022074512649900000002-20251022074515778100000006][0m
+[0m[1mmodule.eks.module.kms.data.aws_iam_policy_document.this[0]: Reading...[0m[0m
+[0m[1mmodule.eks.module.kms.data.aws_iam_policy_document.this[0]: Read complete after 0s [id=25059516][0m
+[0m[1mmodule.eks.module.kms.aws_kms_key.this[0]: Refreshing state... [id=7f83275e-0209-40c4-9609-92c550108371][0m
+[0m[1mmodule.vpc.aws_default_security_group.this[0]: Refreshing state... [id=sg-08f66ef6fad4b5e69][0m
+[0m[1mmodule.vpc.aws_default_route_table.default[0]: Refreshing state... [id=rtb-037b93c9ff6c6b7b5][0m
+[0m[1mmodule.eks.aws_security_group.cluster[0]: Refreshing state... [id=sg-0482e019c4e1510f6][0m
+[0m[1mmodule.vpc.aws_subnet.public[0]: Refreshing state... [id=subnet-0bf30461dc293070b][0m
+[0m[1mmodule.vpc.aws_default_network_acl.this[0]: Refreshing state... [id=acl-08de138da3f3bd4d3][0m
+[0m[1mmodule.vpc.aws_subnet.public[1]: Refreshing state... [id=subnet-06bcefe28abfa25df][0m
+[0m[1mmodule.vpc.aws_route_table.private[0]: Refreshing state... [id=rtb-09336b3297ba83080][0m
+[0m[1maws_security_group.rds_sg: Refreshing state... [id=sg-03d1de63125a8ae2c][0m
+[0m[1mmodule.eks.aws_security_group.node[0]: Refreshing state... [id=sg-09e578b83140ba884][0m
+[0m[1mmodule.vpc.aws_internet_gateway.this[0]: Refreshing state... [id=igw-0a202acb4cc28d948][0m
+[0m[1mmodule.vpc.aws_route_table.public[0]: Refreshing state... [id=rtb-0852c49da65b2a348][0m
+[0m[1mmodule.vpc.aws_subnet.private[0]: Refreshing state... [id=subnet-09031b13f474003d8][0m
+[0m[1mmodule.vpc.aws_subnet.private[1]: Refreshing state... [id=subnet-03e48f85eb854d00f][0m
+[0m[1mmodule.eks.module.kms.aws_kms_alias.this["cluster"]: Refreshing state... [id=alias/eks/shopping-eks][0m
+[0m[1mmodule.vpc.aws_eip.nat[0]: Refreshing state... [id=eipalloc-04a41e187732a0dea][0m
+[0m[1mmodule.eks.aws_iam_policy.cluster_encryption[0]: Refreshing state... [id=arn:aws:iam::124355676261:policy/shopping-eks-cluster-ClusterEncryption2025102207454178860000000d][0m
+[0m[1mmodule.vpc.aws_route.public_internet_gateway[0]: Refreshing state... [id=r-rtb-0852c49da65b2a3481080289494][0m
+[0m[1mmodule.vpc.aws_route_table_association.public[0]: Refreshing state... [id=rtbassoc-01f8dfa9392f36cce][0m
+[0m[1mmodule.vpc.aws_route_table_association.public[1]: Refreshing state... [id=rtbassoc-0c6588a107fbc0174][0m
+[0m[1mmodule.eks.aws_security_group_rule.node["egress_all"]: Refreshing state... [id=sgrule-785913431][0m
+[0m[1mmodule.eks.aws_security_group_rule.cluster["ingress_nodes_443"]: Refreshing state... [id=sgrule-1194108915][0m
+[0m[1mmodule.eks.aws_security_group_rule.node["ingress_cluster_8443_webhook"]: Refreshing state... [id=sgrule-1536168640][0m
+[0m[1mmodule.eks.aws_security_group_rule.node["ingress_cluster_9443_webhook"]: Refreshing state... [id=sgrule-1060184331][0m
+[0m[1mmodule.eks.aws_security_group_rule.node["ingress_cluster_6443_webhook"]: Refreshing state... [id=sgrule-1221340897][0m
+[0m[1mmodule.eks.aws_security_group_rule.node["ingress_self_coredns_udp"]: Refreshing state... [id=sgrule-3907929807][0m
+[0m[1mmodule.eks.aws_security_group_rule.node["ingress_nodes_ephemeral"]: Refreshing state... [id=sgrule-2817183715][0m
+[0m[1mmodule.eks.aws_security_group_rule.node["ingress_cluster_443"]: Refreshing state... [id=sgrule-3021315565][0m
+[0m[1mmodule.eks.aws_security_group_rule.node["ingress_cluster_4443_webhook"]: Refreshing state... [id=sgrule-2173585783][0m
+[0m[1mmodule.eks.aws_security_group_rule.node["ingress_self_coredns_tcp"]: Refreshing state... [id=sgrule-1286726944][0m
+[0m[1mmodule.eks.aws_security_group_rule.node["ingress_cluster_kubelet"]: Refreshing state... [id=sgrule-821616447][0m
+[0m[1mmodule.vpc.aws_route_table_association.private[0]: Refreshing state... [id=rtbassoc-0edb39b2169e48c6c][0m
+[0m[1mmodule.vpc.aws_route_table_association.private[1]: Refreshing state... [id=rtbassoc-0fad08de80a24e58e][0m
+[0m[1mmodule.eks.aws_iam_role_policy_attachment.cluster_encryption[0]: Refreshing state... [id=shopping-eks-cluster-20251022074512649900000002-2025102207454291660000000e][0m
+[0m[1maws_db_subnet_group.default: Refreshing state... [id=shopping-eks-db-subnet-group][0m
+[0m[1mmodule.vpc.aws_nat_gateway.this[0]: Refreshing state... [id=nat-08b509b945c0454fb][0m
+[0m[1mmodule.vpc.aws_route.private_nat_gateway[0]: Refreshing state... [id=r-rtb-09336b3297ba830801080289494][0m
+[0m[1mmodule.eks.aws_eks_cluster.this[0]: Refreshing state... [id=shopping-eks][0m
+[0m[1mmodule.eks.aws_iam_openid_connect_provider.oidc_provider[0]: Refreshing state... [id=arn:aws:iam::124355676261:oidc-provider/oidc.eks.us-east-1.amazonaws.com/id/2E26B61ABB0E3E93AD49C3F120E6EB3D][0m
+[0m[1mmodule.eks.time_sleep.this[0]: Refreshing state... [id=2025-10-22T07:56:04Z][0m
+[0m[1mmodule.eks.module.eks_managed_node_group["example"].module.user_data.null_resource.validate_cluster_service_cidr: Refreshing state... [id=6979733739913879909][0m
+[0m[1mmodule.eks.module.eks_managed_node_group["example"].aws_launch_template.this[0]: Refreshing state... [id=lt-022b4416f21d55ab7][0m
+[0m[1mmodule.eks.module.eks_managed_node_group["example"].aws_eks_node_group.this[0]: Refreshing state... [id=shopping-eks:example-20251022075612551100000011][0m
+[33m╷[0m[0m
+[33m│[0m [0m[1m[33mWarning: [0m[0m[1mArgument is deprecated[0m
+[33m│[0m [0m
+[33m│[0m [0m[0m  with module.eks.aws_iam_role.this[0],
+[33m│[0m [0m  on .terraform/modules/eks/main.tf line 387, in resource "aws_iam_role" "this":
+[33m│[0m [0m 387: resource "aws_iam_role" "this" [4m{[0m[0m
+[33m│[0m [0m
+[33m│[0m [0minline_policy is deprecated. Use the aws_iam_role_policy resource instead. If Terraform
+[33m│[0m [0mshould exclusively manage all inline policy associations (the current behavior of this
+[33m│[0m [0margument), use the aws_iam_role_policies_exclusive resource as well.
+[33m╵[0m[0m
+[0m[1m[32m
+Outputs:
+
+[0mcluster_certificate_authority_data = "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJVEJCZ0UyVzh0VFl3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TlRFd01qSXdOelEyTXpCYUZ3MHpOVEV3TWpBd056VXhNekJhTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUUNpcjFSbVA4dmpZNnVqYlNZejNPSXp2b1Q5a3dwWVVLNkVBSS9GTVZEQnk2UTc1Rm52U09YbnVKNEkKRHcxUjcya2M4SmRhdFBOT09OMEtHOE5ueGpNL21DNjlxeDEwcStLL2xkaWxiRUI5S0xMMW5XdFcwSmVxa0lwYgozd3dyc1pmaDFSc2pOc1k4dzY1VHNSZnhUdDFpaGFGRTFQTUVrdm93VEZsbEViK0RCdWh5aExKdTloVlZYZE0yCi9IckRWS1ltejdxQ0hzVkpmbEdUbVg4bjZ2ZlJBc0FEL3FNc1l6NGVCWmE1cG41Y1c3empEMUtNQ2gwdEM4VDgKTkZ5WitJVHo5L21scFVDVkl0Tm53RTN2c3JKQ2FwNitjL2pjc3hSWjVDd0pkYk04Qk9kUUx4SFNhbWgyc1hJLwpqSkZhR2RGQWdMOFlLZnQ0QVRqais4RTV6V3FkQWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJTb2xjWFlKVk1YQ3llOGFOTnVzNU9PcnF3d2hUQVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQVQyeGs0eTBCRQpqZnpRVTlOOXJPanM4SEZmQWhpa2puZmhLZkJPb2FkMGtTYlFGN0VlaXQ1T3FabW5OLzNIZWJJSHpJejNPMXJxCmVDcXpCTGZvODFBM256MkJTTVlUNlBYTHdIZnpUWEtaMFRrM3ZzMi9XTEc1M2xFTUFqaUlLV2haQVZUWllhWHYKSnFvSUZ3RVlhR1doZ2VjMUhLN1laOTdtU08yaG9uaGFwNlNDYnRZYzB6dlJiODFJZ0ZIRDB2RURtbUtVK08vOQp2K1ljZndXMG83N3RESzBpT3cvN1hILzZvcmliN0o3YmFPNlpRUG1pQ2tTLzNUekJxRm9EV245RFcxZjhJN0RwCjBqWitBcFQ4aitLTXNpRFNib2NoTGEvMVZUVE1PTmFjSlhWNDhzK1BZWEdNeE1yeVV3V1ZnSXQ3VnVSSUk0SXQKZzQrL1ZrUjBtOVl1Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K"
+cluster_endpoint = "https://2E26B61ABB0E3E93AD49C3F120E6EB3D.gr7.us-east-1.eks.amazonaws.com"
+ecr_backend_url = "124355676261.dkr.ecr.us-east-1.amazonaws.com/shopping-backend"
+ecr_frontend_url = "124355676261.dkr.ecr.us-east-1.amazonaws.com/shopping-frontend"
+rds_endpoint = "shopping-eks-postgres-db.cs5go4e6u38z.us-east-1.rds.amazonaws.com"
